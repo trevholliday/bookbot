@@ -2,7 +2,7 @@ def get_word_count(book_content):
    words = book_content.split()
    return len(words)
 
-def count_characters(book_content):
+def get_chars_dict(book_content):
    charcter_count = {}
 
    for char in book_content:
